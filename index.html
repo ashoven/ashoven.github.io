@@ -1,13 +1,54 @@
-import WordPressMangastream from './templates/WordPressMangastream.mjs';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math Corp of Arlington</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Math Corp of Arlington</h1>
+        <p>Making Math Fun for Grades 1-5</p>
+    </header>
 
-export default class AresManga extends WordPressMangastream {
+    <section class="intro">
+        <p>Welcome to <strong>Math Corp of Arlington</strong>! We are a nonprofit dedicated to helping young learners in grades 1 through 5 develop a love for math. Our free weekly tutoring sessions are held at the <strong>Central Library in Arlington, VA</strong>, where we focus on making math an exciting and enjoyable experience for all students.</p>
+    </section>
 
-    constructor() {
-        super();
-        super.id = 'aresmanga';
-        super.label = 'Ares Manga';
-        this.tags = ['webtoon', 'arabic'];
-        this.url = 'https://aresnov.org';
-        this.path = '/series/list-mode/';
-    }
-}
+    <section class="details">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li><strong>Fun-Focused Learning:</strong> We believe math should be engaging! Our approach turns challenging concepts into fun games and activities that help your child gain confidence.</li>
+            <li><strong>Free Weekly Sessions:</strong> Our sessions are completely free! Join us every Saturday at the Arlington Central Library for a fun and educational experience your child will look forward to!</li>
+        </ul>
+    </section>
+
+    <section class="who-can-join">
+        <h2>Who Can Join?</h2>
+        <p>Students in <strong>Grades 1-5</strong>, and children who want to improve their math skills and have fun doing it!</p>
+    </section>
+
+    <section class="location">
+        <h2>Where and When?</h2>
+        <p><strong>Location:</strong> Central Library, <strong>1015 N Quincy St, Arlington, VA 22201</strong></p>
+        <p><strong>When:</strong> Every <strong>Saturday from 1-4pm</strong></p>
+    </section>
+
+    <section class="signup">
+        <h2>Ready to Get Started?</h2>
+        <p>Math is fun when it’s done with older kids and in a supportive environment. Sign your child up today and watch them grow their love for math!</p>
+        <a href="https://docs.google.com/document/d/1921lV5it4DGkuJHug3yjuF8AXQGaARenci8BRKd09bQ/edit" class="signup-button">Sign Up Here</a>
+    </section>
+
+    <section class="contact">
+        <h2>Questions?</h2>
+        <p>If you have any questions, feel free to email us at <a href="mailto:ahovenburg@gmail.com">ahovenburg@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Math Corp of Arlington.</p>
+    </footer>
+</body>
+</html>
