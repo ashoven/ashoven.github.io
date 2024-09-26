@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 
-/* Body Styling */
+/* Dark Theme Body Styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
     padding: 20px;
 }
 
@@ -22,12 +22,12 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    color: #2b5797;
+    color: #ffffff;
 }
 
 header p {
     font-size: 1.2rem;
-    color: #333;
+    color: #dddddd;
 }
 
 /* Section Styling */
@@ -37,7 +37,7 @@ section {
 
 h2 {
     font-size: 1.5rem;
-    color: #2b5797;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -49,14 +49,15 @@ ul {
 ul li {
     margin-bottom: 10px;
     line-height: 1.4;
+    color: #dddddd;
 }
 
 /* Sign Up Button */
 .signup-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2b5797;
-    color: white;
+    background-color: #3a3a3a;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
@@ -64,7 +65,17 @@ ul li {
 }
 
 .signup-button:hover {
-    background-color: #1f4371;
+    background-color: #555555;
+}
+
+/* Contact Section */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
@@ -72,6 +83,7 @@ footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9rem;
+    color: #aaaaaa;
 }
 
 /* Responsive Design */
